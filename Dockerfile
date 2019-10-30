@@ -1,4 +1,4 @@
-FROM Centos:latest
+FROM centos:latest
 MAINTAINER feroz
 RUN yum -y install httpd
 COPY index.html /var/www/html/
